@@ -16,6 +16,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
   close:
+    steps: 
     - name: Close Stale Issues
       uses: actions/stale@1.0.0
       with:
