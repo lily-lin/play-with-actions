@@ -1,4 +1,4 @@
 # play-with-actions
 play with GitHub actions
 
-try it
+try it edit
