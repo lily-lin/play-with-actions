@@ -121,3 +121,14 @@ jobs:
         ./kustomize build . | kubectl apply -f -
         kubectl rollout status deployment/$ACK_DEPLOYMENT_NAME
         kubectl get services -o wide
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+  
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
